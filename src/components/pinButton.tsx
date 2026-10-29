@@ -12,7 +12,7 @@ export function PinButton({ isPinned, onToggle }: Props) {
       onClick={onToggle}
       aria-label={isPinned ? 'Unpin note' : 'Pin note'}
       aria-pressed={isPinned}
-      className="p-1 rounded hover:bg-gray-100 transition"
+      className="p-1 rounded hover:bg-gray-100 transition cursor-pointer"
     >
       <Pin
         size={16}
